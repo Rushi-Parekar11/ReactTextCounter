@@ -1,0 +1,49 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+
+}
+
+#cc{
+    background-color: rgb(208, 208, 208);
+    height: 11vh;
+}
+#btnctu{
+    margin-top: 10px;
+}
+.prev h2{
+    color: red;
+}
+#note{
+   height: 50vh;
+   width: 60vw;
+   border: 5px solid rgb(38, 38, 38);
+   border-radius: 10px;
+   background-color: white;
+   color: black;
+   overflow: hidden;
+}
+
+#yu{
+    margin-left: 170px;
+}
+#all{
+    height: 100vh;width: 100vw;
+}
+#shad{
+    box-shadow: 0px 0px 10px 1px;
+    position: sticky;
+    top: 0;
+}
+#med button{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 600px) {
+    #med button{
+      height: 30px;width:100px ;
+      margin: 5;padding: 0;
+    }
+    #fy{
+        width:170px ;
+    }
+  }
